@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/parent_layout">
+
+    <ImageView
+        android:id="@+id/repImage"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/repName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/dummyText"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/repParty"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/repName"
+        android:layout_below="@+id/repName"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/repEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/repParty"
+        android:textSize="15sp"
+        android:layout_below="@+id/repParty"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/repWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="15sp"
+        android:layout_alignStart="@+id/dummyText"
+        android:layout_below="@+id/repEmail"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/dummyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/moreDetails"
+        android:layout_marginRight="95dp"
+        android:layout_below="@+id/repImage"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/moreDetails"
+        style="?android:textAppearanceSmall"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/repImage"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/test"
+        android:text="More Details"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/moreDetails"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/black" />
+
+</RelativeLayout>
