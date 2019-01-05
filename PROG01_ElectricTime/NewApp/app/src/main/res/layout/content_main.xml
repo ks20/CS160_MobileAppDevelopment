@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="Please Choose Transportation"
+        android:textColor="#0000FF"
+        android:textSize="15sp"
+        android:visibility="visible" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:weightSum="10">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/walkingMan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/walking_man" />
+
+                <TextView
+                    android:id="@+id/walkingManText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Walking"
+                    android:textColor="#0000FF"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/walkingManTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF0000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/boostedBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/boosted_board" />
+
+                <TextView
+                    android:id="@+id/boostedBoardText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Boosted Mini S Board"
+                    android:textColor="#0000FF"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/boostedBoardTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF0000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/evolveBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@mipmap/evolve_board" />
+
+                <TextView
+                    android:id="@+id/evolveBoardText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Evolve Skateboard"
+                    android:textColor="#0000FF"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/evolveBoardTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF0000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/oneWheel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/onewheel_board" />
+
+                <TextView
+                    android:id="@+id/oneWheelText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="OneWheel"
+                    android:textColor="#0000FF"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/oneWheelTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FF0000"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/motoTec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/mototec_board" />
+
+                <TextView
+                    android:id="@+id/motoTecText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="MotoTec Skateboard"
+                    android:textColor="#0000FF"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/motoTecTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FF0000"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/nineBot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/segway_ninebot" />
+
+                <TextView
+                    android:id="@+id/nineBotText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Segway Ninebot S1"
+                    android:textColor="#0000FF"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/nineBotTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FF0000"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/i2se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/segway_i2_se" />
+
+                <TextView
+                    android:id="@+id/i2seText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Segway i2 SE"
+                    android:textColor="#0000FF"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/i2seTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FF0000"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/razor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/razor_scooter" />
+
+                <TextView
+                    android:id="@+id/razorText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Razor Scooter"
+                    android:textColor="#0000FF"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/razorTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FF0000"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/geoBlade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/geoblade_500" />
+
+                <TextView
+                    android:id="@+id/geoBladeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="GeoBlade 500"
+                    android:textColor="#0000FF"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/geoBladeTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FF0000"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/hoverTrax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/hovertrax_board" />
+
+                <TextView
+                    android:id="@+id/hoverTraxText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="Hovertrax Hoverboard"
+                    android:textColor="#0000FF"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/hoverTraxTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FF0000"
+                    android:layout_weight="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="SUBMIT"
+        />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="90dp"
+        android:text="CLEAR"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/submit_button"
+        android:layout_alignParentBottom="true"
+        />
+
+    <EditText
+        android:id="@+id/travel_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="9"
+        android:hint="Enter travel distance"
+        android:textColorHint="#000000"
+        android:textSize="14sp"
+        android:layout_above="@id/submit_button"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="miles"
+        android:textColor="#000000"
+        android:layout_alignBaseline="@+id/travel_distance"
+        android:layout_alignBottom="@+id/travel_distance"
+        android:layout_toLeftOf="@+id/clear_button"
+        android:layout_toStartOf="@+id/clear_button" />
+
+    <TextView
+        android:id="@+id/range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/travel_distance"
+        android:textColor="#000000"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp" />
+
+</RelativeLayout>
