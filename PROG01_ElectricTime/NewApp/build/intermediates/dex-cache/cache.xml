@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_52d712c607385141e39eaca4c6fbfb774c1464dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/2943873ad1399c16605998153e2259a29034fc5f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_0a0eba571f13d49ab846771e0434614410697374.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/08a6e3e79ab78ca5b1beda84fd3e91521b44d3b6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_3c9e1a25d04a1ae1b1e9fad405821e095d058b7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/cde43650a10f4fd971ea8deb886cf9977fa597f9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_e710549cb8fd104884e433eb687b3d586282fce5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/7364a9db8bb3734b212dbc6d6feedc04625b074f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_e8afdc4b8aea6708b344c5ccd16053d4ed2df1d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/4e5f973dbd947c3d595714e3a9b1a511d1c43987/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_3ef5835162f5ecd7290fcb643450850c4083c301.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/2588103443b08ec74b2821d72746262bf009a52b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_595e27f96fe51435faadc47d866eb6e1d0383cc1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/2818b5a84a7db33ada1f5b697b0755b46459d383/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_dea122febee3601c7f1a13f597cb8d49783d44a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/9379197c9383cc1cd70864f37778ab3f501efef1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_7361b05bd77f652114e01feacd97995607cde049.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/e40c2bd63202157821f11921f97e2aab5a54c49e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_0cb047fd8d0f228a1d1b1b1d9e0fc66c4c96636d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_59f28a1a2679a510a80babf807e9db5de73b04b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/64582f8163d413d4436005f8e279cab54cd78459/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_8c2730b916927762988c788681bb9a42338e5892.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/7c98555ee15c651aceba0508bd6a2346e0016822/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_259cd9c31bc7fb92e0941492fd584db864802d01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/b2cdb4033817d97b9597f1aa6131037b6a249a4d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_658aa0fb4929d20cfb5b6240ff461720adfc36c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_9a3582a59dfdfb7b7ca853bb1be696a17ac0a065.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Kushal/.android/build-cache/ab191eeea52f1dee27102bd397e59906e0c5ebb8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/pre-dexed/debug/classes_6601eca11497b7a50a8d4f4e5a1a35805c501b3b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="55e8990894fef9c9f7b910414246fe89388ca324">
+        <dex dex="/Users/Kushal/Downloads/prog01-fa18-ksberk-master 2/NewApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ef61746df6ed1c85d970680c79c7e40377b292de/classes.dex" />
+    </item>
+
+</items>
