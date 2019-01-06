@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1036906621215",
+    "firebase_url": "https://testcalnourish.firebaseio.com",
+    "project_id": "testcalnourish",
+    "storage_bucket": "testcalnourish.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036906621215:android:39f8869a51a6493b",
+        "android_client_info": {
+          "package_name": "com.example.calnourish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036906621215-8svdrbdacgkr9rcqmo6fbdeb9f81df2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMPBm2QZzGuENsXHrv8Np4RRMNn6acCV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036906621215:android:5347abff60b503fe",
+        "android_client_info": {
+          "package_name": "website.copyandpaste.bottombarnavigationwith3fragments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036906621215-8svdrbdacgkr9rcqmo6fbdeb9f81df2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMPBm2QZzGuENsXHrv8Np4RRMNn6acCV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
